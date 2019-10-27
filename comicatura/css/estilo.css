@@ -1,0 +1,465 @@
+html,
+body{
+    height: 100%;
+}
+
+.col-centrar {
+    float: none!important;
+    margin: 0 auto;
+}
+form {
+    padding: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(2, 2, 2, 0.12);
+    box-shadow: 0px 0px 6px 1px rgba(2, 2, 2, 0.12);
+}
+
+form input,
+button {
+    border-radius: 0!important;
+}
+
+.caja {
+    padding: 20px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 4px 0px rgba(2, 2, 2, 0.1);
+    box-shadow: 0px 0px 4px 0px rgba(2, 2, 2, 0.1);
+}
+.imagen {
+    padding: 10px;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 6px 1px rgba(2, 2, 2, 0.12);
+    box-shadow: 0px 0px 6px 1px rgba(2, 2, 2, 0.12);
+}
+
+.input-group {
+    display: block !important;
+}
+
+input {
+    margin-bottom: 20px !important
+}
+.bg{
+    background: url(../img/pencil-918449_1920.jpg) center center no-repeat;
+    background-size: cover;
+}
+.izq{
+    height: 100%;
+    width: 240px;
+    background-color: darkslategrey;
+    position: fixed;
+    padding-top: 60px;
+}
+.perfil{
+    padding: 40px 40px 20px 40px;
+}
+.perfil img{
+    width: 100%;
+}
+.nombre{
+    color: white;
+}
+.der{
+    margin-left: 240px;
+    padding-top: 60px;
+}
+.cabecera-pag{
+    padding: 30px;
+}
+.titulo-pag{
+    font-size: 24px;
+    display: inline-block;
+    margin-top: 0;
+}
+.titulo-pag >small{
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+}
+.fecha{
+    padding: 10px 20px;
+    background-color: #fafafa;
+}
+.logo{
+    position: fixed;
+    background-color: darkslategrey;
+}
+header .navbar{
+    margin-left: 240px;
+}
+header .logo{
+    color:white;
+    width: 240px;
+    font-size: 22px;
+    float: left;
+    display: block;
+    text-align: center;
+    line-height: 55px;
+    z-index: 1;
+    -webkit-box-shadow: 0 2px 1px rgba(0,0,0,0.47);
+    box-shadow: 0 2px 1px rgba(0,0,0,);
+}
+header .logo:hover{
+    text-decoration: none;
+}
+.mas{
+    padding-bottom: 0px; 
+}
+.mas i{
+    font-size: 25px;
+    color:darkslategrey; 
+    padding-left:12px;
+}
+.panel{
+    margin-bottom: 20px;
+    background-color:darkslategrey; 
+    border-radius: 4px;
+   
+    
+}
+
+.bg-ama{
+    background-color: #ffbb33;
+}
+
+.icono{
+    width: 40%;
+    padding: 25px 15px;
+    display: inline-block;
+    text-align: center;
+}
+.icono i{
+    font-size: 50px;
+    color: white;
+}
+
+.valor{
+    width: 60%;
+    padding-top: 21px;
+    float: right;
+    text-align: center;
+    color: white;
+}
+.valor h1{
+    margin:0;
+}
+.modal_form
+ {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+ }
+.accion{
+    width: 27px; 
+    height: 26px; 
+    font-size: 10px; 
+    padding:  5px; 
+}
+@import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.trs{
+    background-color: transparent !important;
+}
+
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  letter-spacing: 1.5px;
+}
+.section__titulo {
+  text-align: center;
+  font-size: 40px;
+  color: #FBA919;
+}
+.contenedor {
+  margin: auto;
+  width: 99%;
+}
+/*-------------------Estilos del header-------------------*/
+.header {
+  height: 60px;
+}
+.header .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+/*
+.logo, .icon-menu {
+  margin: 5px;
+  color: #fff;
+}
+*/
+.icon-menu {
+  display: block;
+  width: 40px;
+  height: 40px;
+  font-size: 30px;
+  background: #FBA919;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 5px;
+  margin-left: auto;
+  cursor: pointer;
+}
+/*------------------Estilos del menu------------------*/
+.nav {
+  position: absolute;
+  top: 60px;
+  left: -100%;
+  width: 100%;
+  transition: all 0.4s;
+}
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__link {
+  display: block;
+  padding: 15px;
+  background: #FBA919;
+  text-decoration: none;
+  color: #fff;
+}
+.menu__link:hover, .select {
+  background: white;
+  color: #FBA919;
+}
+.mostrar {
+  left: 0;
+}
+
+/*--------------Estilos de banner--------------*/
+
+.banner {
+  margin-top: -60px;
+  position: relative;
+  z-index: -1000;
+  margin-bottom: 20px;
+}
+
+.banner .contenedor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+}
+
+.banner__txt {
+  display: none;
+}
+
+/*-----------------Estilos de info-----------------*/
+.info__columna {
+  background: #FBA919;
+  color: #fff;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+
+/*-----------------Estilos de cursos-----------------*/
+.cursos__columna {
+  position: relative;
+  margin-bottom: 30px;
+}
+.cursos__descripcion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  width: 60%;
+  height: 100%;
+  padding: 5px;
+}
+.cursos__titulo {
+  font-size: 25px;
+  margin: 5px 0;
+}
+.cursos__img {
+  width: 100%;
+}
+/*-----------------Estilos de footer-----------------*/
+
+.footer {
+  background: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.footer .social [class^="icon-"] {
+  display: inline-block;
+  color: #333;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  line-height: 40px;
+}
+
+/*------------------Estilos responsive------------------*/
+
+@media(min-width:480px) {
+  .logo {
+    font-size: 40px;
+  }
+  .banner__titulo {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .banner__txt {
+    display: block;
+    font-size: 18px;
+    margin: 7px 0;
+  }
+  .info, .cursos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -90px;
+  }
+  .info__columna {
+    width: 32%;
+  }
+  .info__titulo {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+  .section__titulo {
+    width: 100%;
+  }
+  .cursos {
+    flex-wrap: wrap;
+    margin-top: 0;
+  }
+  .cursos__columna {
+    width: 49%;
+  }
+  .footer .social [class^="icon-"] {
+    margin: 0 10px;
+  }
+}
+@media(min-width:768px) {  
+  .banner__titulo {
+    font-size: 50px;
+  }
+  .cursos__titulo {
+    font-size: 40px;
+  }
+}
+
+@media(min-width:1024px) {  
+  .contenedor {
+    width: 1000px;
+  }
+  .section__titulo {
+    font-size: 50px;
+    margin: 30px 0;
+  }
+  .nav {
+    position: static;
+    width: auto;
+  }
+  .menu {
+    display: flex;
+  }
+  .icon-menu {
+    display: none;
+  }
+  .menu__link {
+    background: none;
+    font-size: 20px;
+  }
+  .select {
+    color: #fff;
+    background: #FBA919;
+  }
+  .banner__titulo {
+    font-size: 60px;
+  }
+  .banner__txt {
+    font-size: 25px;
+  }
+  .info {
+    margin-top: -120px;
+  }
+  .info__columna {
+    padding: 30px;
+  }
+  .info__titulo {
+    font-size: 40px;
+    text-align: center;
+  }
+  .cursos__descripcion {
+    padding: 20px;
+  }
+  .cursos__titulo {
+    font-size: 50px;
+  }
+  .cursos__txt {
+    font-size: 20px;
+  }
+}
+
+@media(min-width:1280px) {
+  .contenedor {
+    width: 1200px;
+  }
+  .logo {
+    font-size: 60px;
+  }
+  .banner .contenedor {
+    top: 40%;
+  }
+  .info {
+    margin-top: -220px;
+  }
+}
+
+
+
+
+
+
+.alerta{margin-bottom:30px;padding:20px 55px 20px 90px;position:relative;border-radius:5px;}
+.alerta .alerta_icon{width:60px;height:60px;font-size:30px;line-height:60px;color:rgba(0,0,0,.4);position:absolute;left:10px;top:10px;text-align:center;border-radius:5px}
+.alerta a.close{position:absolute;right:15px;top:20px;font-size:20px;line-height:20px}
+.alerta a.close i{margin:0!important;color:rgba(0,0,0,.6)}
+.alerta a:hover.close i{color:rgba(0,0,0,.8)}
+
+
+.alerta_warning{background:#ffe38b;color:#9b812e}
+.alerta_warning .alerta_icon{background:#fbda72}
+.alerta_warning a,.alerta_warning a:hover{color:#645012}
+
+.alerta_error{background:#fb5455;color:#fff}
+.alerta_error .alerta_icon{background:#f24143}
+.alerta_error a,.alerta_error a:hover{color:#9f2e2e}
+
+.alerta_info{background:#3097db;color:#fff}
+.alerta_info .alerta_icon{background:#1c81c4}
+.alerta_info a,.alerta_info a:hover{color:#b1e0ff}
+
+.alerta_success{background:#a5de5c;color:#fff}
+.alerta_success .alerta_icon{background:#8fc944}
+.alerta_success a,.alerta_success a:hover{color:#5d9514}
